@@ -12,7 +12,7 @@ namespace smotrish.Controllers
     {
         //ChannelContext context = new ChannelContext();
         ChannelsRepository repository = new ChannelsRepository();
-        // GET: Channels1
+        // GET: Channels
         public ActionResult Index()
         {
             return View(repository.GetAll());
